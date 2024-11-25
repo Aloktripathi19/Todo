@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <input type="text" placeholder="Enter ID">
+    <input type="text" placeholder="Enter Task">
+    <input type="date">
+    <select>
+        <option value="" selected disabled>Select Dept</option>
+        <option value="Tech">Tech</option>
+        <option value="HR">HR</option>
+        <option value="FD">FD</option>
+        <option value="Maketing">Marketing</option>
+        <option value="MR">MR</option>
+        <option value="SDE">SDE</option>
+    </select>
+    <button onclick="add()">Add</button>
+    <button onclick="upd()" style="display:none;">Update</button>
+    <div id="dp"></div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
